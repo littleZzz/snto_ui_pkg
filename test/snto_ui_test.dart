@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:snto_ui/snto_ui.dart';
+import '../lib/snto_ui.dart';
 
 void main() {
   test('adds one to input values', () {
