@@ -5,10 +5,15 @@ class MyWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.red,
-      constraints: BoxConstraints(maxWidth: 100),
-      child: const Text("这个是一个测试widget"),
+    return Column(
+      children: [
+        Container(
+          color: Colors.yellow,
+          constraints: BoxConstraints(maxWidth: 100),
+          child: const Text("这个是一个测试widget"),
+        ),
+        Text("这个是0.02版本", style: TextStyle(color: Colors.yellow)),
+      ],
     );
   }
 }
